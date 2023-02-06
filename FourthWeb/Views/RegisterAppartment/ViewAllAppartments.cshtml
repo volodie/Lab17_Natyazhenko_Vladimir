@@ -1,0 +1,17 @@
+﻿@model List<FourthWeb.Models.AppartmentModel>
+@{
+    ViewData["Title"] = "Add Page";
+}
+@foreach (var item in Model)
+{
+    <div class="text-left">
+        <p>
+            IdAPP: <strong>@item.IdAPP</strong> <br>
+            BuildingYear: <strong>@item.BuildingYear</strong> <br>
+            Flat: <strong>@item.Flat</strong> <br>
+            Rooms: <strong>@item.Rooms</strong> <br>
+            Square: <strong>@item.Square</strong> <br>
+        </p>
+    </div>
+}
+

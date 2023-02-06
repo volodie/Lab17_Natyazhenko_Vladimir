@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Add Page";
+}
+
+<div class="text-center">
+    <div style="text-align: left">
+        <form asp-controller="RegisterAppartment" asp-action="RegAppartment" method="post">
+            ID:               <input name="idApp" /><br />
+            Rooms:            <input name="numberRooms" /><br />
+            Square:           <input name="square" /><br />
+            BuildingYear:     <input name="buildingYear"  /><br />
+            Flat:             <input name="flat" /><br />
+            <button type="submit">Add Appartment</button>
+        </form>
+    </div>
+</div>
